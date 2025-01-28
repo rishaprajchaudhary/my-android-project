@@ -21,7 +21,7 @@ A simple and easy-to-use **Personal Expense Tracker** app built for tracking dai
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/PersonalExpenseTracker.git
+   git clone https://github.com/rishaprajchaudhary/my-android-project.git
 Open the project in Android Studio.
 
 Make sure all dependencies are installed.
