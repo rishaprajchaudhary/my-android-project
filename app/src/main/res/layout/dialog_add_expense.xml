@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expense Description"
+        android:inputType="text"
+        android:padding="12dp" /> <!-- Increased padding for larger touch target -->
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expense Amount"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" /> <!-- Increased padding for larger touch target -->
+
+    <Button
+        android:id="@+id/buttonAddExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Add Expense"
+        android:padding="16dp" /> <!-- Increased padding for larger touch target -->
+
+</LinearLayout>
